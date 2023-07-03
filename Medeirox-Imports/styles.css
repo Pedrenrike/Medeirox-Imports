@@ -19,7 +19,7 @@ img{
 .down{
     align-items: end;
 }
-header{
+.b-black{
     background-color: black;
 }
 .white{
@@ -101,4 +101,37 @@ a{
     opacity: 1;
     visibility: visible;
     z-index: 10;
+}
+.produtos{
+    width: 18%;
+    padding:1.5%;
+    border-radius: 20px;
+    background-color: lightgrey;
+    margin-right: 4%;
+}
+.comprar{
+    border: none;
+    font-size: 140%;
+    font-weight: 900;
+    width: 80%;
+    margin-left: 10%;
+    padding: 3%;
+    cursor: pointer;
+    justify-self: center;
+}
+.preco{
+    color: red;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+.descrição{
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 15px;
+    margin-left: 2.5%;
+}
+.nome-produto{
+    margin-left: 2.5%;
+    margin-bottom: 1%;
 }
