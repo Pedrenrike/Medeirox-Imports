@@ -8,26 +8,30 @@
 </head>
 <body>
     <header class="b-black">
+        <script src="pesquisa.js"></script>
         <div class="barra left white">
-            <h4>Home</h4>
+            <h4><a href="index.html" class="white">Home</a></h4>
             <h4>Contate-nos</h4>
             <h4>Saiba mais</h4>
+            <h4><a href="sobre.html" class="white">Sobre nós</a></h4>
         </div>
         <div class="barra down" style="margin-bottom: 1%;">
-            <img src="https://www.redepampa.com.br/wp-content/uploads/2021/11/LOGO-REDE-PAMPA-BRANCO-PNG.png" id="logo">
+            <a href="index.html">
+                <img src="https://www.redepampa.com.br/wp-content/uploads/2021/11/LOGO-REDE-PAMPA-BRANCO-PNG.png" id="logo">
+            </a>
             <div class="barra right">
                 <input type="text" id="pesquisa" placeholder="search...">
-                <img src="https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-couleur-noire.png" alt="lupa" id="lupa">
+                <img src="https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-couleur-noire.png" alt="lupa" id="lupa" onclick="search()">
             </div>
         </div>
         <div class="barra center white" style="margin-bottom: 0.5%;">
-            <a href="" class="margin1"><p class="white">Infantil</p></a>
-            <a href="" class="margin1"><p class="white">Moda feminina</p></a>
-            <a href="" class="margin1"><p class="white">Moda masculina</p></a>
-            <a href="" class="margin1"><p class="white">Moletons</p></a>
-            <a href="" class="margin1"><p class="white">Calçados</p></a>
-            <a href="" class="margin1"><p class="white">Produtos de limpeza</p></a>
-            <a href="" class="margin1"><p class="white">Bebidas</p></a>
+            <a href="" class="margin1"><p class="white nome-produto">Infantil</p></a>
+            <a href="" class="margin1"><p class="white nome-produto">Moda feminina</p></a>
+            <a href="" class="margin1"><p class="white nome-produto">Moda masculina</p></a>
+            <a href="" class="margin1"><p class="white nome-produto">Moletons</p></a>
+            <a href="" class="margin1"><p class="white nome-produto">Calçados</p></a>
+            <a href="" class="margin1"><p class="white nome-produto">Produtos de limpeza</p></a>
+            <a href="" class="margin1"><p class="white nome-produto">Bebidas</p></a>
         </div>
     </header>
     <section style="width: 100%;">
@@ -49,39 +53,14 @@
             </li>
         </ul>
     </section>
-    <section style="margin-top: 31%; margin-left: 3%;">
-        <h1>Recomendados</h1>
-        <div class="barra rolagem">
-            <div class="produtos">
-                <img src="imgs/tenis.png" alt="" style="width: 95%; margin-left: 2.5%;">
-                <h3 class="nome-produto">Tênis da nike</h3>
-                <p class="descrição">Tênis para ir no rolê com a rapazeada!</p>
-                <p class="preco">R$ 200,00</p>
-                <button class="comprar b-black white">COMPRAR</button>
-            </div>
-            <div class="produtos">
-                <img src="imgs/perfume1.png" alt="" style="width: 95%; margin-left: 2.5%;">
-                <h3 class="nome-produto">Perfume Feminino</h3>
-                <p class="descrição">Perfume para conquistar o homem dos seus sonhos!</p>
-                <p class="preco">R$ 120,00</p>
-                <button class="comprar b-black white">COMPRAR</button>
-            </div>
-            <div class="produtos">
-                <img src="imgs/perfume2.png" alt="" style="width: 95%; margin-left: 2.5%;">
-                <h3 class="nome-produto">Perfume Masculino</h3>
-                <p class="descrição">Perfume para conquistar a mulher da sa vida!</p>
-                <p class="preco">R$ 100,00</p>
-                <button class="comprar b-black white">COMPRAR</button>
-            </div>
-            <div class="produtos">
-                <img src="imgs/bermuda.png" alt="" style="width: 95%; margin-left: 2.5%;">
-                <h3 class="nome-produto">Bermuda Jeans</h3>
-                <p class="descrição">Bermuda muito bonita para vestir em dias quentes</p>
-                <p class="preco">R$ 50,00</p>
-                <button class="comprar b-black white">COMPRAR</button>
+    <section style="margin-top: 31%; margin-bottom: 4%;">
+        <div class="barra">
+            <h1 class="left" style="margin-left: 3%;">Recomendados</h1>
+            <div class="right">
+                <a href="recomendados.html" style="margin-right: 3%; color: #ff0000;"><h3>Ver mais</h3></a>
             </div>
         </div>
-        <div class="barra rolagem" style="margin-top: 2%;">
+        <div class="barra" style="margin-left: 3%;">
             <div class="produtos">
                 <img src="imgs/tenis.png" alt="" style="width: 95%; margin-left: 2.5%;">
                 <h3 class="nome-produto">Tênis da nike</h3>
