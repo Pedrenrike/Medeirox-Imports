@@ -53,6 +53,7 @@ h4{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 .slider{
     display: block;
@@ -131,7 +132,7 @@ a{
     font-size: 15px;
     margin-left: 2.5%;
 }
-.nome-produto{
+p .nome-produto{
     margin-left: 2.5%;
     margin-bottom: 1%;
 }
