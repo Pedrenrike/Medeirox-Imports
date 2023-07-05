@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pesquisa</title>
+</head>
+<body>
+    <header class="b-black">
+        <script src="pesquisa.js"></script>
+        <div class="barra left white">
+            <h4><a href="index.html" class="white" onload="pesquisa()">Home</a></h4>
+            <h4>Contate-nos</h4>
+            <h4>Saiba mais</h4>
+            <h4><a href="sobre.html" class="white">Sobre nós</a></h4>
+        </div>
+        <div class="barra down" style="margin-bottom: 1%;">
+            <img src="https://www.redepampa.com.br/wp-content/uploads/2021/11/LOGO-REDE-PAMPA-BRANCO-PNG.png" id="logo">
+            <div class="barra right">
+                <input type="text" id="pesquisa" placeholder="search...">
+                <img src="https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-couleur-noire.png" alt="lupa" id="lupa" onclick="search()">
+            </div>
+        </div>
+        <div class="barra center white" style="margin-bottom: 0.5%;">
+            <a href="" class="margin1"><p class="white nome-produto" onclick="atalho('infantil')">Infantil</p></a>
+            <a href="" class="margin1"><p class="white nome-produto" onclick="atalho('moda feminina')">Moda feminina</p></a>
+            <a href="" class="margin1"><p class="white nome-produto" onclick="atalho('moda masculina')">Moda masculina</p></a>
+            <a href="" class="margin1"><p class="white nome-produto" onclick="atalho('moletons')">Moletons</p></a>
+            <a href="" class="margin1"><p class="white nome-produto" onclick="atalho('calçados')">Calçados</p></a>
+            <a href="" class="margin1"><p class="white nome-produto" onclick="atalho('limpeza')">Produtos de limpeza</p></a>
+            <a href="" class="margin1"><p class="white nome-produto" onclick="atalho('bebidas')">Bebidas</p></a>
+        </div>
+    </header>
+</body>
+</html>
