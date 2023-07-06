@@ -11,13 +11,13 @@
     <header class="b-black">
         <script src="pesquisa.js"></script>
         <div class="barra left white">
-            <h4><a href="index.html" class="white" onload="pesquisa()">Home</a></h4>
+            <h4><a href="index.html" class="white">Home</a></h4>
             <h4>Contate-nos</h4>
             <h4>Saiba mais</h4>
             <h4><a href="sobre.html" class="white">Sobre nós</a></h4>
         </div>
         <div class="barra down" style="margin-bottom: 1%;">
-            <img src="https://www.redepampa.com.br/wp-content/uploads/2021/11/LOGO-REDE-PAMPA-BRANCO-PNG.png" id="logo">
+            <img onload="pesquisa()" src="https://www.redepampa.com.br/wp-content/uploads/2021/11/LOGO-REDE-PAMPA-BRANCO-PNG.png" id="logo">
             <div class="barra right">
                 <input type="text" id="pesquisa" placeholder="search...">
                 <img src="https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-couleur-noire.png" alt="lupa" id="lupa" onclick="search()">
@@ -33,5 +33,49 @@
             <a href="" class="margin1"><p class="white nome-produto" onclick="atalho('bebidas')">Bebidas</p></a>
         </div>
     </header>
+    <section style="margin-top: 2%;">
+        <div class="barra" style="margin-left: 3%;">
+            <div class="produtos">
+                <div style="margin-left: 2.5%;">
+                    <p class="tags">tenis nike tênis masculino adulto homem calçados</p>
+                    <img src="imgs/tenis.png" alt="" style="width: 95%;">
+                    <h3 class="nome-produto">Tênis da nike</h3>
+                    <p class="descrição">Tênis para ir no rolê com a rapazeada!</p>
+                    <p class="preco">R$ 200,00</p>    
+                </div>
+                <button class="comprar b-black white">COMPRAR</button>
+            </div>
+            <div class="produtos">
+                <div style="margin-left: 2.5%;">
+                    <p class="tags">perfume feminino mulher adulto cosméticos beleza</p>
+                    <img src="imgs/perfume1.png" alt="" style="width: 95%;">
+                    <h3 class="nome-produto">Perfume Feminino</h3>
+                    <p class="descrição">Perfume para conquistar o homem dos seus sonhos!</p>
+                    <p class="preco">R$ 120,00</p>    
+                </div>
+                <button class="comprar b-black white">COMPRAR</button>
+            </div>
+            <div class="produtos">
+                <div style="margin-left: 2.5%;">
+                    <p class="tags">perfume masculino homem adulto cosméticos beleza</p>
+                    <img src="imgs/perfume2.png" alt="" style="width: 95%;">
+                    <h3 class="nome-produto">Perfume Masculino</h3>
+                    <p class="descrição">Perfume para conquistar a mulher da sa vida!</p>
+                    <p class="preco">R$ 100,00</p>
+                </div>
+                <button class="comprar b-black white">COMPRAR</button>
+            </div>
+            <div class="produtos">
+                <div style="margin-left: 2.5%;">
+                    <p class="tags">bermuda roupa homem moda masculino</p>
+                    <img src="imgs/bermuda.png" alt="" style="width: 95%;">
+                    <h3 class="nome-produto">Bermuda Jeans</h3>
+                    <p class="descrição">Bermuda muito bonita para vestir em dias quentes</p>
+                    <p class="preco">R$ 50,00</p>
+                </div>
+                <button class="comprar b-black white">COMPRAR</button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
