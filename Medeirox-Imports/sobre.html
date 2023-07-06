@@ -9,6 +9,7 @@
 </head>
 <body>
     <header class="b-black">
+        <script src="pesquisa.js"></script>
         <div class="barra left white">
             <h4><a href="index.html" class="white">Home</a></h4>
             <h4>Contate-nos</h4>
@@ -16,22 +17,20 @@
             <h4><a href="sobre.html" class="white">Sobre nós</a></h4>
         </div>
         <div class="barra down" style="margin-bottom: 1%;">
-            <a href="index.html">
-                <img src="https://www.redepampa.com.br/wp-content/uploads/2021/11/LOGO-REDE-PAMPA-BRANCO-PNG.png" id="logo">
-            </a>
+            <img src="https://www.redepampa.com.br/wp-content/uploads/2021/11/LOGO-REDE-PAMPA-BRANCO-PNG.png" id="logo">
             <div class="barra right">
                 <input type="text" id="pesquisa" placeholder="search...">
-                <img src="https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-couleur-noire.png" alt="lupa" id="lupa">
+                <img src="https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-couleur-noire.png" alt="lupa" id="lupa" onclick="search()">
             </div>
         </div>
         <div class="barra center white" style="margin-bottom: 0.5%;">
-            <a href="" class="margin1"><p class="white nome-produto">Infantil</p></a>
-            <a href="" class="margin1"><p class="white nome-produto">Moda feminina</p></a>
-            <a href="" class="margin1"><p class="white nome-produto">Moda masculina</p></a>
-            <a href="" class="margin1"><p class="white nome-produto">Moletons</p></a>
-            <a href="" class="margin1"><p class="white nome-produto">Calçados</p></a>
-            <a href="" class="margin1"><p class="white nome-produto">Produtos de limpeza</p></a>
-            <a href="" class="margin1"><p class="white nome-produto">Bebidas</p></a>
+            <p class="white margin1" onclick="atalho('infantil')">Infantil</p>
+            <p class="white margin1" onclick="atalho('moda feminino')">Moda feminina</p>
+            <p class="white margin1" onclick="atalho('moda masculino')">Moda masculina</p>
+            <p class="white margin1" onclick="atalho('moletons')">Moletons</p>
+            <p class="white margin1" onclick="atalho('calçados')">Calçados</p>
+            <p class="white margin1" onclick="atalho('limpeza')">Produtos de limpeza</p>
+            <p class="white margin1" onclick="atalho('bebidas')">Bebidas</p>
         </div>
     </header>
 </body>
