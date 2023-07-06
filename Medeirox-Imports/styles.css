@@ -131,6 +131,9 @@ a{
     margin-bottom: 2%;
     font-size: 15px;
 }
-p .nome-produto{
-    margin-bottom: 1%;
+.tags{
+    display: none;
+}
+.barra p {
+    cursor: pointer;
 }
